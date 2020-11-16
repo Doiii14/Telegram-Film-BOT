@@ -1,6 +1,6 @@
 
 var TelegramBot = require('node-telegram-bot-api');
-var token = '1477150367:AAFcLvw2i2ruqifRt_KUZjbTBc43c7wSzGQ';
+var token = 'Your token given by BotFather';
 var bot = new TelegramBot(token,{polling:true});
 var request = require('request');
 
