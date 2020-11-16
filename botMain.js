@@ -13,7 +13,7 @@ bot.onText(/\/search (.+)/,function(msg,match){
     let movie = match[1]; //LETTURA NOME
     if (movie.match(/[a-z]/i)){
         bot.on("polling_error", (err) => console.log(err));
-        let url = 'http://www.omdbapi.com/?apikey=1abe5d65&t=$film';
+        let url = 'http://www.omdbapi.com/?apikey=';
         let finalstring = url.replace('film', movie);
         request(finalstring,function(error,response,body){
 
