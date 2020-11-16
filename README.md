@@ -25,5 +25,5 @@ npm i node-telegram-bot-api
 * Register to http://www.omdbapi.com/, get your API key and paste it into the code
 
 ```
- let url = 'your api key'
+ let url = 'http://www.omdbapi.com/?apikey=yourkey=?film';
 ```
