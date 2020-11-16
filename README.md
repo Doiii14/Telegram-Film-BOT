@@ -15,4 +15,4 @@ npm i node-telegram-bot-api
 ```
 ### Configuration
 
-* Create your own bot with botfather, copty your token and paste it into the var token
+* Create your own bot with botfather, copty your token and paste it into the code
